@@ -111,4 +111,26 @@ function disappearFactsTooltip() {
 factsNavItem.addEventListener('mouseenter', appearFactsTooltip);
 factsNavItem.addEventListener('mouseleave', disappearFactsTooltip);
 
-// Input Box
+// INPUT BOX
+
+// Already called descriptions above
+
+var dropDown = document.querySelector("#chooseColumn");
+
+var addNewText = document.querySelector("#newText");
+
+var buttonNewText = document.querySelector("#goButton");
+
+function columnTextboxMatch() {
+  if (dropDown.value === "column1") {
+    descrip1.innerText = addNewText.value;
+  }
+  else if (dropDown.value === "column2") {
+    descrip2.innerText = addNewText.value;
+  }
+  else {
+    descrip3.innerText = addNewText.value;
+  }
+}
+
+buttonNewText.addEventListener('click', columnTextboxMatch);

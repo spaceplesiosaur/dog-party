@@ -320,7 +320,14 @@ text-align: center;
   text-align: center;
   width: 100%;
   height: 200px;
+  padding-top: 100px;
 
+
+}
+
+#updateTextLabel {
+
+  margin: 10px;
 }
 
 /*FOOTER*/
