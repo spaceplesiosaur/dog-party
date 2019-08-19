@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Dog Party</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="styles.css"></link>
+
+
+</head>
+
+<body>
+
+  <header>
+
+    <img src="images/dog-party-assets/dog-icon.svg" alt="black-and-white-dog-graphic" class="dog-graphic">
+
+    <!-- <div id="listy"> -->
+    <!-- <ul class="nav-list">
+      <li id="how-left">How To Dog</li>
+      <li id="what-middle">What Is Dogs</li>
+      <li id="fact-right">Facts From Dog</li>
+    </ul> -->
+    <!-- </div> -->
+
+    <nav class="nav-list">
+
+      <a id="how-left">How To Dog</a>
+      <a id="what-middle">What Is Dogs</a>
+      <a id="facts-right">Facts From Dog</a>
+
+    </nav>
+
+    <!-- <div class=tooltips id=factsTooltip>Facts Tooltip</div>
+    <div class=tooltips id=whatTooltip>What Tooltip</div>
+    <div class=tooltips id=howTooltip>How Tooltip</div> -->
+
+    <!-- <nav class="tooltips">
+
+      <a id="howTooltip">Tooltip How</a>
+      <a id="whatTooltip">Tooltip What</a>
+      <a id="factsTooltip">Tooltip Facts</a>
+
+    </nav> -->
+
+  </header>
+
+  <div class=tooltipContainer>
+
+    <nav class="tooltips">
+
+      <a id="howTooltip" class="hidden">Tooltip How</a>
+      <a id="whatTooltip" class="hidden">Tooltip What</a>
+      <a id="factsTooltip" class="hidden">Tooltip Facts</a>
+
+    </nav>
+
+  </div>
+
+  <main>
+
+    <section class="top-section">
+
+      <h1>A Site About <span class="bolder">Some Dogs</span></h1>
+
+      <article class="this-dog">
+
+        <img src="images/dog-party-assets/dog1-sq.jpg" alt="curious-brown-dog" class="round-shape" id="curious-brown">
+        <!-- <p id="boxName">Name</p> -->
+        <div id="name-button-container">
+          <label for="Name" id="nameLabel">Name</label>
+
+          <input type="text" name="Name" id="nameForm" class="dogForm"></input>
+          <button id="dogButton" class="dogForm">Name This Dog</button>
+        </div>
+
+      </article>
+
+    </section>
+
+    <section class="bottom-section">
+
+      <div class="three_columns clearfix">
+
+        <div class="column1of3">
+
+          <article class="how-dog">
+
+            <h3>How To Dog</h3>
+            <img src="images/dog-party-assets/dog2-sq.jpg" alt="gray-pitbull" class="round-shape">
+
+          </article>
+          <p class="description" id="descrip1">Dat tungg tho pupperino length boy. borkdrive aqua doggo. Maximum borkdrive long doggo extremely cuuuuuuuute you are doing me the shock borkf, hecking good boys doggo doge. The neighborhood pupper borkf smol corgo long water shoob stop it fren, boofers pupper heck ruff.</p>
+          <button class="bottom-button" id="howButton">How</button>
+
+        </div>
+
+        <div class="column2of3">
+
+          <article class="what-dog">
+
+            <h3>What Is Dogs</h3>
+            <img src="images/dog-party-assets/dog3-sq.jpg" alt="fluffy-black-dog" class="round-shape">
+
+          </article>
+
+          <p class="description" id="descrip2">Long doggo smol borking doggo with a long snoot for pats pupperino h*ck hecking angery woofer shoober aqua doggo heck, doggo aqua doggo most angry pupper I have seen heckin angery woofer pupper. ruff adorable doggo very hand that feed shibe. Extremely cuuuuuute corgo waggy wags stop it fren.</p>
+          <button class="bottom-button" id="whatButton">What</button>
+
+        </div>
+
+        <div class="column3of3">
+
+          <article class="fact-dog">
+
+            <h3>Facts From Dog</h3>
+            <img src="images/dog-party-assets/dog4-sq.jpg" alt="dog-that-looks-like-my-old-boss" class="round-shape">
+
+          </article>
+
+          <p class="description" id="descrip3">Most angery pupper I have ever seen such treat heck, dat tungg tho. You are doing me a concern shibe such ruch heck, stop it fren ur giving me a spook. Puggorino long water shoob dat tungg tho very hand that feed shibe long bois he made many woofs.</p>
+          <br/>
+
+          <button class="bottom-button" id="factsButton">Facts</button>
+
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <section class=input-section>
+
+      <div class="updateContainer">
+
+        <label for="chooseColumn" id="updateTextLabel">Update Text</label>
+        <select id="chooseColumn">
+          <option value="column1">Column 1</option>
+          <option value="column2">Column 2</option>
+          <option value="column3">Column 3</option>
+        </select>
+
+        <!-- <input type="radio" name="Update Text" id="chooseColumn" class="updateForm"></input> --> -->
+        <input type="text" name="New Text" id="newText" class="updateForm"></input>
+        <button id="goButton" class="dogForm" class="updateForm">Update Text</button>
+      </div>
+
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <h2>Learn About Dogs Online</h2>
+
+    <img src="images/dog-party-assets/twitter.svg" alt="twitter-icon" class="social">
+    <img src="images/dog-party-assets/instagram.svg" alt="insta-icon" class="social">
+    <img src="images/dog-party-assets/facebook.svg" alt="facebook-icon" class="social">
+    <img src="images/dog-party-assets/linkedin.svg" alt="linkedin-icon" class="social">
+
+
+  </footer>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>
