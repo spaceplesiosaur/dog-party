@@ -355,3 +355,16 @@ padding-top: 36px;
 
 padding: 18px;
 }
+
+@media (max-width: 600px) {
+
+  .column1of3, .column2of3, .column3of3 {
+
+    height: 100%;
+    width: 360px;
+    display: block;
+    float:left;
+
+  }
+
+ }
